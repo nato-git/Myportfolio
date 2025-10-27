@@ -1,0 +1,13 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: #102b40;
+  background-color: #edd093;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 8px solid #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
