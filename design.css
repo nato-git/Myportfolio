@@ -32,7 +32,7 @@ header h1 {
   max-width: 90%;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .titles {
@@ -51,7 +51,7 @@ header h1 {
 .ImageClick img {
   width: 100px;
   height: 100px;
-  border: #fff 5px solid;
+  border: #102b40 5px solid;
   border-radius: 20px;
 }
 
