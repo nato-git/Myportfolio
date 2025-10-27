@@ -1,15 +1,20 @@
 const caption = {
-  title: ['ドラクエ１竜王戦'],
+  title: ['ドラクエ１竜王戦', '2DShootingGame'],
   explanation: [
     `GoogleColabで制作したFC版ドラゴンクエスト１竜王戦の再現です。<br>
     Ipython.displayを利用し、Python内でHTML,Javascriptを呼び出しています。<br>`,
+    `2年文化祭でグループ制作した2Dのシューティングゲームです。<br>
+    Unity,VScode,Githubで制作しました。<br>
+    敵を倒すとアルファベットをドロップし、特定のアルファベットを集めることで技を発動することができます。`,
   ],
-  picture1: ['project_img/ryuou_battle_1.png'],
-  picture2: ['project_img/ryuou_battle_2.png'],
-  picture3: ['project_img/ryuou_battle_3.png'],
+  picture1: ['project_img/ryuou_battle_1.png', 'project_img/2dshoot_1.png'],
+  picture2: ['project_img/ryuou_battle_2.png', 'project_img/2dshoot_1.png'],
+  picture3: ['project_img/ryuou_battle_3.png', 'project_img/2dshoot_1.png'],
   url: [
     //ryuou_battle
     'https://colab.research.google.com/drive/1vlJxniejNXWUlFSLyqM3Qte1vUIexAkA?usp=sharing',
+    //2dshooting
+    'https://github.com/panko200/2D_Shooting_Game_Team',
   ],
 };
 
