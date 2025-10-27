@@ -23,7 +23,7 @@ function movingHTML(i) {
     <img src="${caption.picture2[i]}"><br>
     <img src="${caption.picture3[i]}"><br>
     </div>
-    <a href="${caption.url[i]}" style="display:flex; justify-content: center;">サイトへ移動</a><br>
+    <a href="${caption.url[i]}" style="display:flex; justify-content: center; padding-top: 5px;">サイトへ移動</a><br>
     <a href="homepage.html" style="padding-top:20px;">ポートフォリオへ移動</a>
     </div>`;
   document.body.innerHTML = htmltext;
