@@ -5,8 +5,8 @@ html {
   background-color: #ecebf5;
 }
 
-header {
-  row-gap: 0;
+header h1 {
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   font-size: 35px;
@@ -19,8 +19,10 @@ header {
   max-width: 100%;
   background-color: #edd093;
   margin-bottom: 10px;
-  padding-bottom: 10px;
-  padding-top: 100%;
+  padding-bottom: 3px;
+  margin-top: 0;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .mains {
@@ -28,6 +30,7 @@ header {
   margin: 3px;
   justify-content: center;
   align-items: flex-start;
+  margin-left: 5px;
 }
 
 .titles {
