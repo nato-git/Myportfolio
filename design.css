@@ -48,7 +48,11 @@ header h1 {
   font-size: 30px;
 }
 
-.ImageClick {
+.ImageClick img {
   width: 30px;
   height: 30px;
+}
+
+.No {
+  display: none;
 }
