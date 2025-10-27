@@ -20,10 +20,10 @@ function movingHTML(i) {
     <p>${caption.explanation[i]}</p>
     <div class="pic">
     <img src="${caption.picture1[i]}">
-    <img src="${caption.picture2[i]}">
-    <img src="${caption.picture3[i]}">
+    <img src="${caption.picture2[i]}"><br>
+    <img src="${caption.picture3[i]}"><br>
     </div>
-    <a href="${caption.url[i]}">サイトへ移動</a>
+    <a href="${caption.url[i]}" style="text-align: center;">サイトへ移動</a><br>
     <a href="homepage.html" style="margin-top:10px">ポートフォリオへ移動</a>
     </div>`;
   document.body.innerHTML = htmltext;
