@@ -23,6 +23,7 @@ header h1 {
 }
 
 .mains {
+  display: block;
   padding: 5px;
   margin: 3px;
   justify-content: center;
