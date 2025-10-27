@@ -2,12 +2,31 @@ html {
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
   color: #102b40;
-  background-color: #edd093;
+  background-color: #ecebf5;
 }
 
-h1 {
+header {
   font-size: 35px;
   text-align: center;
   border-bottom: 8px solid #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 5em;
+  padding-right: 5em;
+  width: 10em;
+  max-width: 100%;
+  background-color: #edd093;
+}
+
+.mains {
+  padding: 5px;
+  margin: 3px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.titles {
+  border-left: double 3px #000;
+  font-size: 30px;
+  background-color: #fff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
