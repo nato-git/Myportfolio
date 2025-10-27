@@ -17,12 +17,13 @@ header h1 {
   padding-right: 15px;
   background-color: #edd093;
   margin: 0 auto 10px auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-top: 7px;
   margin-top: 0;
 }
 
 .mains {
+  background-color: #e9e9e9;
   padding-bottom: 2px;
   margin: 3px;
   align-items: flex-start;

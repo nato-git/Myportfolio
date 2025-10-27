@@ -26,4 +26,5 @@ function movingHTML(i) {
     <a href="${caption.url[i]}">サイトへ移動</a>
     <a href="homepage.html" style="margin-top:10px">ポートフォリオへ移動</a>
     </div>`;
+  document.body.innerHTML = htmltext;
 }
