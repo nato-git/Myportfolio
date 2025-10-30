@@ -68,4 +68,5 @@ header h1 {
   width: 75%;
   height: 75%;
   object-fit: contain;
+  border: #202b40 3px solid;
 }
