@@ -44,7 +44,7 @@ function movingHTML(i) {
     <h2>${caption.title[i]}</h2>
     <p>${caption.explanation[i]}</p>
     <div class="pic">
-    <img src="${caption.picture1[i]}">
+    <img src="${caption.picture1[i]}"><br>
     <img src="${caption.picture2[i]}"><br>
     <img src="${caption.picture3[i]}"><br>
     </div>
