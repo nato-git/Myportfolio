@@ -78,17 +78,33 @@ header {
 }
 
 .talk {
-  margin: 10px 0 300px 0;
-  border: #102b40 5px solid;
+  margin: 20px auto 40px auto;
+  max-width: 400px;
+  border: #102b40 3px solid;
   border-radius: 10px;
-  padding: 10px 3px 10px 3px;
+  padding: 15px 20px;
+  position: relative;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
 }
+
 .talk::before {
-  border-top: 10px;
-  border-bottom: 10px;
-  border-left: 20px;
+  content: '';
   position: absolute;
   top: 50%;
-  left: 100%;
+  right: -23px;
+  transform: translateY(-50%);
+  border: 10px solid transparent;
+  border-left: 13px solid #102b40;
+}
+
+.talk::after {
   content: '';
+  position: absolute;
+  top: 50%;
+  right: -18px;
+  transform: translateY(-50%);
+  border: 10px solid transparent;
+  border-left: 13px solid #f0f8ff;
 }
