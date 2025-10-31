@@ -43,7 +43,7 @@ header {
   margin-top: 2px;
   height: 70px;
   width: 100%;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .titles details {
@@ -70,4 +70,10 @@ header {
   height: 75%;
   object-fit: contain;
   border: #202b40 3px solid;
+}
+
+.explane {
+  font-size: 15px;
+  margin-top: 0;
+  padding-top: 0;
 }
