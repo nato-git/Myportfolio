@@ -79,7 +79,7 @@ header {
 
 .talk {
   margin: 20px auto 40px auto;
-  max-width: 400px;
+  max-width: auto;
   border: #102b40 3px solid;
   border-radius: 10px;
   padding: 15px 20px;
@@ -93,18 +93,18 @@ header {
   content: '';
   position: absolute;
   top: 50%;
-  right: -23px;
+  left: -23px;
   transform: translateY(-50%);
   border: 10px solid transparent;
-  border-left: 13px solid #102b40;
+  border-right: 13px solid #102b40;
 }
 
 .talk::after {
   content: '';
   position: absolute;
   top: 50%;
-  right: -18px;
+  left: -18px;
   transform: translateY(-50%);
   border: 10px solid transparent;
-  border-left: 13px solid #f0f8ff;
+  border-right: 13px solid #f0f8ff;
 }
