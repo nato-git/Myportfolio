@@ -77,3 +77,19 @@ header {
   margin-top: 0;
   padding-top: 0;
 }
+
+.talk {
+  margin: 10px 0 300px 0;
+  border: #102b40 5px solid;
+  border-radius: 10px;
+  padding: 10px 3px 10px 3px;
+}
+.talk ::before {
+  border-top: 10px;
+  border-bottom: 10px;
+  border-left: 20px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  content: '';
+}
