@@ -20,12 +20,12 @@ const caption = {
   ],
   picture2: [
     'project_img/ryuou_battle_2.png',
-    'project_img/2dshoot_1.png',
+    'project_img/2dshoot_2.png',
     'project_img/kanji_2.png',
   ],
   picture3: [
     'project_img/ryuou_battle_3.png',
-    'project_img/2dshoot_1.png',
+    'project_img/2dshoot_3.png',
     'project_img/kanji_3.png',
   ],
   url: [
