@@ -41,7 +41,7 @@ const caption = {
 function movingHTML(i) {
   const htmltext = `
     <div class="mains">
-    <h2>${caption.title[i]}</h2>
+    <h2 style="border-bottom:5px #102b40 solid;">${caption.title[i]}</h2>
     <p>${caption.explanation[i]}</p>
     <div class="pic">
     <img src="${caption.picture1[i]}"><br>
