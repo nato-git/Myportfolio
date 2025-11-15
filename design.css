@@ -6,6 +6,10 @@ html {
   width: auto;
   max-width: 100%;
 }
+html body {
+  padding: 0;
+  margin: 0;
+}
 
 header h1 {
   justify-content: center;
@@ -18,9 +22,37 @@ header h1 {
 }
 header {
   background-color: #edd093;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+.menu-line::after {
+  bottom: 10px;
+  position: absolute;
+}
+.menu-line::before {
+  top: 10px;
+  position: absolute;
+}
+.menu-line,
+.menu-line::after,
+.menu-line::before {
+  border-top: #000 5px solid;
+  content: '';
+  width: 40px;
+  height: 20px;
+}
+.menu {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-top: 20px;
 }
 
 .mains {
+  padding-top: 200px;
   padding-bottom: 2px;
   margin: 3px;
   align-items: flex-start;
@@ -55,6 +87,7 @@ header {
   height: 100px;
   border: #102b40 5px solid;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .No {
