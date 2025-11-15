@@ -24,8 +24,9 @@ header {
   background-color: #edd093;
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 20%;
   margin: 0;
+  z-index: 10;
 }
 .menu-line::after {
   bottom: 10px;
@@ -45,10 +46,8 @@ header {
 }
 .menu {
   position: relative;
-  margin-top: 20px;
-  margin-left: 5px;
-  padding-left: 5px;
-  padding-top: 20px;
+  top: 30px;
+  left: 5px;
 }
 
 .mains {
