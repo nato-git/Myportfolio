@@ -57,7 +57,7 @@ header {
   position: fixed;
   z-index: 100;
   background-color: rgba(0, 0, 0, 0.9);
-  width: 30%;
+  width: 18em;
   height: 100%;
   color: azure;
   padding-left: 8px;
