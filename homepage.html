@@ -8,16 +8,27 @@
     <link rel="stylesheet" href="design.css" />
   </head>
   <body>
+    <div id="menu-window">
+          <label>
+          <div class="menu-line-cross"></div>
+          <input type="button" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="No">
+          </label>
+          <h2 style="border-bottom:3px #fff solid; margin-top: 70px;">Caption</h2>
+          <a href="#Profiles" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Profiles</a><br>
+          <a href="#Github/SNS" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Github/SNS</a><br>
+          <a href="#Tool&technologies" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Tool&technologies</a><br>
+          <a href="#Projects" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Projects</a><br>
+        </div>
     <header>
       <div class="menu">
         <label>
-        <input type="button" id="menuButton" class="No">
+        <input type="button" onclick="document.getElementById('menu-window').style.visibility='visible'" class="No">
         <div class="menu-line"></div>
         </label>
       </div>
       <h1>Portfolio</h1>
     </header>
-    <main>
+    <main style="padding-top: 200px;">
       <div class="mains">
         <p class="talk">
           こんにちは、その辺の高専生をしているnatoと申します。<br>
@@ -26,7 +37,7 @@
           今の目標はUnityで色々作ってみることです。<br>
           （HTML&CSS,Javascriptでも色々作りたい！）
         </p>
-        <div class="titles">
+        <div class="titles" id="Profiles">
           <details>
             <summary>Profiles</summary>
             <p>
@@ -46,7 +57,7 @@
               &gt;JapaneseDrum；<br>&gt;Game；
             </p></div>
           </details>
-        <div class="titles">
+        <div class="titles" id="Github/SNS">
           <details>
             <summary>Github/SNS</summary>
              <p>Github</p>
@@ -61,7 +72,6 @@
               />
             </label>
             <!--
-            Xアカウントはあまり出したくないので裏に隠しました。見つけたあなたは裏側を見るのが好きですね？
             <p>Xアカウント</p>
             <label>
               <div class="ImageClick">
@@ -74,7 +84,7 @@
               />
             </label>
           -->
-            <p>個人メールアドレス</p>
+            <p>MailAddress</p>
             <label>
               <div class="ImageClick">
                 <img src="mail_icon.jpg" />
@@ -88,7 +98,7 @@
             <p class="explane">sr.nato710@gmail.com</p><br>
           </details>
         </div>
-        <div class="titles">
+        <div class="titles" id="Tool&technologies">
           <details>
             <summary>Tool&technologies</summary>
             <br>
@@ -115,7 +125,7 @@
               &gt;GoogleColab；</div><br>
           </details>
         </div>
-        <div class="titles">
+        <div class="titles" id="Projects">
           <details>
             <summary>Projects</summary>
             <!--ryuou_battle-->
