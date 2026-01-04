@@ -1,5 +1,12 @@
 const caption = {
-  title: ['ドラクエ１竜王戦', 'Juppyter', '小学生向け漢字辞典', 'CRL'],
+  title: [
+    'ドラクエ１竜王戦',
+    'Juppyter',
+    '小学生向け漢字辞典',
+    'CRL',
+    'FillSupporter',
+    '家に帰りたい。',
+  ],
   explanation: [
     //ryuou_battle
     `GoogleColabで制作したFC版ドラゴンクエスト１竜王戦の再現です。<br>

@@ -3,64 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="natoのポートフォリオサイトです。自己紹介や色々な制作物を載せています。">
+    <meta
+      name="description"
+      content="natoのポートフォリオサイトです。自己紹介や色々な制作物を載せています。"
+    />
     <title>nato's Portfolio</title>
     <link rel="stylesheet" href="design.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="menu-window">
-          <label>
-          <div class="menu-line-cross"></div>
-          <input type="button" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="No">
-          </label>
-          <h2 style="border-bottom:3px #fff solid; margin-top: 70px;">Caption</h2>
-          <a href="#Profiles" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Profiles</a><br>
-          <a href="#Github/SNS" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Github/SNS</a><br>
-          <a href="#Tool&technologies" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Tool&technologies</a><br>
-          <a href="#Projects" onclick="document.getElementById('menu-window').style.visibility='hidden'" class="menu-main">Projects</a><br>
-        </div>
+      <label>
+        <div class="menu-line-cross"></div>
+        <input
+          type="button"
+          onclick="document.getElementById('menu-window').style.visibility='hidden'"
+          class="No"
+        />
+      </label>
+      <h2 style="border-bottom: 3px #fff solid; margin-top: 70px">Caption</h2>
+      <a
+        href="#Profiles"
+        onclick="document.getElementById('menu-window').style.visibility='hidden'"
+        class="menu-main"
+        >Profiles</a
+      ><br />
+      <a
+        href="#Github/SNS"
+        onclick="document.getElementById('menu-window').style.visibility='hidden'"
+        class="menu-main"
+        >Github/SNS</a
+      ><br />
+      <a
+        href="#Tool&technologies"
+        onclick="document.getElementById('menu-window').style.visibility='hidden'"
+        class="menu-main"
+        >Tool&technologies</a
+      ><br />
+      <a
+        href="#Projects"
+        onclick="document.getElementById('menu-window').style.visibility='hidden'"
+        class="menu-main"
+        >Projects</a
+      ><br />
+    </div>
     <header>
       <div class="menu">
         <label>
-        <input type="button" onclick="document.getElementById('menu-window').style.visibility='visible'" class="No">
-        <div class="menu-line"></div>
+          <input
+            type="button"
+            onclick="document.getElementById('menu-window').style.visibility='visible'"
+            class="No"
+          />
+          <div class="menu-line"></div>
         </label>
       </div>
       <h1>Portfolio</h1>
     </header>
-    <main style="padding-top: 200px;">
+    <main style="padding-top: 200px">
       <div class="mains">
         <p class="talk">
-          こんにちは、その辺の高専生をしているnatoと申します。<br>
-          <a href="https://www.facebook.com/asaka.sisi/?locale=ja_JP">地元の和太鼓集団</a>に所属し、活動しています。<br>
-          思いついたものを個人でもグループでも制作していきます。<br>
-          今の目標はUnityで色々作ってみることです。<br>
+          こんにちは、その辺の高専生をしているnatoと申します。<br />
+          <a href="https://www.facebook.com/asaka.sisi/?locale=ja_JP"
+            >地元の和太鼓集団</a
+          >に所属し、活動しています。<br />
+          思いついたものを個人でもグループでも制作していきます。<br />
+          今の目標はUnityで色々作ってみることです。<br />
           （HTML&CSS,Javascriptでも色々作りたい！）
         </p>
         <div class="titles" id="Profiles">
           <details>
             <summary>Profiles</summary>
-            <p>
-              HandleName：<br />
-              &gt;nato；
-            </p>
-            <p>
-              Affiliation：<br />
-              &gt;Osaka Metropolitan University College of Technology；
-            </p>
-            <p>
-              Age：<br />
-              &gt;17；
-            </p>
-            <p>
-              Hobby：<br />
-              &gt;JapaneseDrum；<br>&gt;Game；
-            </p></div>
+            <pre class="codes_pre"><code class="codes">
+ <span class="code_number">01</span> const HandleName = 'nato';
+ <span class="code_number">02</span>
+ <span class="code_number">03</span> var Affiliation = 'Osaka Metropolitan University College of Technology';
+ <span class="code_number">04</span>
+ <span class="code_number">05</span> let Age = 17;
+ <span class="code_number">06</span>
+ <span class="code_number">07</span> var Hobby = ['JapaneseDrum','Game'];</code>
+</pre>
           </details>
+        </div>
         <div class="titles" id="Github/SNS">
           <details>
             <summary>Github/SNS</summary>
-             <p>Github</p>
+            <p>Github</p>
             <label>
               <div class="ImageClick">
                 <img src="github_icon.jpg" />
@@ -82,34 +115,27 @@
                 class="No"
               />
             </label>
-            <p class="explane">sr.nato710@gmail.com</p><br>
+            <p class="explane">sr.nato710@gmail.com</p>
+            <br />
           </details>
         </div>
         <div class="titles" id="Tool&technologies">
           <details>
             <summary>Tool&technologies</summary>
-            <br>
-            <div>Applications：<br>
-              &gt;VisualStudioCode；<br>
-              &gt;Unity；<br>
-              &gt;Git；<br>
-              &gt;Android Studio；</div><br>
-            <div>Languages Used：<br>
-              &gt;C#；<br>
-              <p class="explane">Unityで軽くゲームが作れる程度</p>
-              &gt;Python；<br>
-              <p class="explane">学校で学んでいる程度</p>
-              &gt;Javascript；<br>
-              &gt;HTML,CSS；<br>
-              <p class="explane">このポートフォリオが作れる程度</p>
-              &gt;C++；<br>
-              <p class="explane">少し学校で学んだ程度</p>
-              &gt;Kotlin；<br>
-              <p class="explane">少し前に学び始めたばかり</p>
-            </div>
-            <div>Software：<br>
-              &gt;Github；<br>
-              &gt;GoogleColab；</div><br>
+            <pre class="codes_pre">
+<code class="codes">
+ <span class="code_number">01</span> var Applications = ['VisualStudioCode','Unity','Git','AndroidStudio'];
+ <span class="code_number">02</span>
+ <span class="code_number">03</span> var Language_Used = ['c#', <span class="code_explane">//Unityで軽くゲームが作れる程度★★☆☆☆</span>
+ <span class="code_number">04</span>                      'Python', <span class="code_explane">//学校で学んでいる程度★★★☆☆</span>
+ <span class="code_number">05</span>                      'Javascript', <span class="code_explane">//マインクラフトのアドオンがある程度作れる程度★★★☆☆</span>
+ <span class="code_number">06</span>                      'HTML,CSS', <span class="code_explane">//このポートフォリオが作れる程度★★☆☆☆</span>
+ <span class="code_number">07</span>                      'C++', <span class="code_explane">//少し学校で学んだ程度★☆☆☆☆</span>
+ <span class="code_number">08</span>                      'Kotlin' <span class="code_explane">//少し前に学び始めたばかり</span>
+ <span class="code_number">09</span>                     ];
+ <span class="code_number">10</span>
+ <span class="code_number">11</span> var Software = ['Github','GoogleColab'];</code>
+</pre>
           </details>
         </div>
         <div class="titles" id="Projects">
@@ -118,60 +144,102 @@
             <!--ryuou_battle-->
             <figure>
               <div class="pic">
-            <img src="project_img/ryuou_battle_2.png">
-            </div>
-            <figcaption style="display: flex; justify-content: center;">ドラクエ１竜王戦</figcaption>
+                <img src="project_img/ryuou_battle_2.png" />
+              </div>
+              <figcaption style="display: flex; justify-content: center">
+                ドラクエ１竜王戦
+              </figcaption>
             </figure>
-            <a href=# onclick="movingHTML(0)" style="display: flex; justify-content: center;">概要を見る</a>
-            <br>
+            <a
+              href="#"
+              onclick="movingHTML(0)"
+              style="display: flex; justify-content: center"
+              >概要を見る</a
+            >
+            <br />
             <!--Juppyter-->
             <figure>
               <div class="pic">
-            <img src="project_img/2dshoot_1.png">
-            </div>
-            <figcaption style="display: flex; justify-content: center;">2年-文化祭</figcaption>
+                <img src="project_img/2dshoot_1.png" />
+              </div>
+              <figcaption style="display: flex; justify-content: center">
+                2年-文化祭
+              </figcaption>
             </figure>
-            <a href=# onclick="movingHTML(1)" style="display: flex; justify-content: center;">概要を見る</a>
-            <br>
+            <a
+              href="#"
+              onclick="movingHTML(1)"
+              style="display: flex; justify-content: center"
+              >概要を見る</a
+            >
+            <br />
             <!--kanji_jiten-->
             <figure>
               <div class="pic">
-            <img src="project_img/kanji_1.png">
-            </div>
-            <figcaption style="display: flex; justify-content: center;">小学生向け漢字辞典</figcaption>
+                <img src="project_img/kanji_1.png" />
+              </div>
+              <figcaption style="display: flex; justify-content: center">
+                小学生向け漢字辞典
+              </figcaption>
             </figure>
-            <a href=# onclick="movingHTML(2)" style="display: flex; justify-content: center;">概要を見る</a>
-            <br>
+            <a
+              href="#"
+              onclick="movingHTML(2)"
+              style="display: flex; justify-content: center"
+              >概要を見る</a
+            >
+            <br />
             <!--CRL-->
             <figure>
               <div class="pic">
-            <img src="project_img/crl_2.png">
-            </div>
-            <figcaption style="display: flex; justify-content: center;">CRL</figcaption>
+                <img src="project_img/crl_2.png" />
+              </div>
+              <figcaption style="display: flex; justify-content: center">
+                CRL
+              </figcaption>
             </figure>
-            <a href=# onclick="movingHTML(3)" style="display: flex; justify-content: center;">概要を見る</a>
-            <br>
+            <a
+              href="#"
+              onclick="movingHTML(3)"
+              style="display: flex; justify-content: center"
+              >概要を見る</a
+            >
+            <br />
             <!--FillSupporter-->
             <figure>
               <div class="pic">
-            <img src="project_img/fill_1.png">
-            </div>
-            <figcaption style="display: flex; justify-content: center;">FillSupporterAddon</figcaption>
+                <img src="project_img/fill_1.png" />
+              </div>
+              <figcaption style="display: flex; justify-content: center">
+                FillSupporterAddon
+              </figcaption>
             </figure>
-            <a href=# onclick="movingHTML(4)" style="display: flex; justify-content: center;">概要を見る</a>
-            <br>
+            <a
+              href="#"
+              onclick="movingHTML(4)"
+              style="display: flex; justify-content: center"
+              >概要を見る</a
+            >
+            <br />
             <!--Gohome-->
             <figure>
               <div class="pic">
-            <img src="project_img/gohome_1.png">
-            </div>
-            <figcaption style="display: flex; justify-content: center;">家に帰りたい。</figcaption>
+                <img src="project_img/gohome_1.png" />
+              </div>
+              <figcaption style="display: flex; justify-content: center">
+                家に帰りたい。
+              </figcaption>
             </figure>
-            <a href=# onclick="movingHTML(5)" style="display: flex; justify-content: center;">概要を見る</a>
-            <br>
+            <a
+              href="#"
+              onclick="movingHTML(5)"
+              style="display: flex; justify-content: center"
+              >概要を見る</a
+            >
+            <br />
           </details>
         </div>
-        <p  class="explane">最終更新日 2026/1/3</p>
+        <p class="explane">最終更新日 2026/1/3</p>
       </div>
     </main>
     <script src="moveHTML.js"></script>
