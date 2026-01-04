@@ -186,25 +186,28 @@ header {
   background-color: #1f1f1f;
   border-radius: 10px;
   position: relative;
-  overflow-x: auto; 
+  display: block;
   width: 100%;
   max-width: 100%;
-  -webkit-overflow-scrolling: touch; 
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 .codes_pre::before {
   border-left: #333 solid 2px;
   content: '';
   position: absolute;
-  left: 15px; 
+  left: 10px;
   top: 0;
   height: 100%;
+  z-index: 1;
   pointer-events: none;
 }
 .codes {
   font-size: 15px;
   color: #fff;
   line-height: 1.8em;
-  display: block;
+  font-family: 'Source Code Pro', monospace;
   background-image: repeating-linear-gradient(
     to bottom,
     transparent 0,
@@ -212,11 +215,10 @@ header {
     #333 calc(1.8em - 1px),
     #333 1.8em
   );
-  font-family: 'Source Code Pro', monospace;
+  display: inline-block;
+  min-width: 100%;
   white-space: pre;
-  padding-left: 30px;
   box-sizing: border-box;
-  min-width: fit-content;
 }
 .code_number {
   color: #ecebf5;
@@ -229,9 +231,6 @@ header {
     font-size: 13px;
   }
   .codes_pre::before {
-    left: 10px;
-  }
-  .codes {
-    padding-left: 20px;
+    left: 8px;
   }
 }
