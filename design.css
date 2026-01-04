@@ -178,6 +178,28 @@ header {
   border-right: 13px solid #fff;
 }
 
+.codes_pre {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  position: relative;
+  overflow-x: auto; 
+  width: 100%;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch; 
+}
+.codes_pre::before {
+  border-left: #333 solid 2px;
+  content: '';
+  position: absolute;
+  left: 15px; 
+  top: 0;
+  height: 100%;
+  pointer-events: none;
+}
 .codes {
   font-size: 15px;
   color: #fff;
@@ -191,26 +213,25 @@ header {
     #333 1.8em
   );
   font-family: 'Source Code Pro', monospace;
-}
-.codes_pre {
-  margin-top: 8px;
-  margin-bottom: 8px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: #1f1f1f;
-  border-radius: 10px;
-  position: relative;
-}
-.codes_pre::before {
-  border-left: #333 solid 2px;
-  content: '';
-  position: absolute;
-  left: 1em;
-  height: 99%;
+  white-space: pre;
+  padding-left: 30px;
+  box-sizing: border-box;
+  min-width: fit-content;
 }
 .code_number {
   color: #ecebf5;
 }
 .code_explane {
   color: #6a9955;
+}
+@media (max-width: 767px) {
+  .codes {
+    font-size: 13px;
+  }
+  .codes_pre::before {
+    left: 10px;
+  }
+  .codes {
+    padding-left: 20px;
+  }
 }
