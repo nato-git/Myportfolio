@@ -199,7 +199,7 @@ header {
   border-left: #333 solid 2px;
   content: '';
   position: absolute;
-  left: 1em;
+  left: 10px;
   top: 0;
   height: 100%;
   z-index: 1;
@@ -238,6 +238,6 @@ header {
     font-size: 13px;
   }
   .codes_pre::before {
-    left: 8px;
+    left: 10px;
   }
 }
