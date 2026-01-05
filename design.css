@@ -180,20 +180,6 @@ header {
   border-right: 13px solid #fff;
 }
 
-.codes {
-  font-size: 15px;
-  color: #fff;
-  line-height: 1.8em;
-  display: block;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0,
-    transparent calc(1.8em - 1px),
-    #333 calc(1.8em - 1px),
-    #333 1.8em
-  );
-  font-family: 'Source Code Pro', monospace;
-}
 .codes_pre {
   margin-top: 8px;
   margin-bottom: 8px;
@@ -202,13 +188,39 @@ header {
   background-color: #1f1f1f;
   border-radius: 10px;
   position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 .codes_pre::before {
   border-left: #333 solid 2px;
   content: '';
   position: absolute;
   left: 1em;
-  height: 99%;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+.codes {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.8em;
+  font-family: 'Source Code Pro', monospace;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(1.8em - 1px),
+    #333 calc(1.8em - 1px),
+    #333 1.8em
+  );
+  display: inline-block;
+  min-width: 100%;
+  white-space: pre;
+  box-sizing: border-box;
 }
 .code_number {
   color: #ecebf5;
@@ -220,4 +232,12 @@ header {
 .Project {
   border: #1f1f1f solid 3px;
   border-radius: 15px;
+}
+@media (max-width: 767px) {
+  .codes {
+    font-size: 13px;
+  }
+  .codes_pre::before {
+    left: 8px;
+  }
 }
