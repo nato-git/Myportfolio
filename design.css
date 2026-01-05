@@ -238,6 +238,6 @@ header {
     font-size: 13px;
   }
   .codes_pre::before {
-    left: 15px;
+    left: 1em;
   }
 }
