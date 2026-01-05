@@ -135,6 +135,8 @@ header {
   margin-right: auto;
   width: 65%;
   height: 65%;
+  max-width: 600px;
+  max-height: 450px;
   object-fit: contain;
   border: #202b40 3px solid;
 }
@@ -213,4 +215,9 @@ header {
 }
 .code_explane {
   color: #6a9955;
+}
+
+.Project {
+  border: #1f1f1f solid 3px;
+  border-radius: 15px;
 }

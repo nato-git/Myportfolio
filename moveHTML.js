@@ -6,6 +6,7 @@ const caption = {
     'CRL',
     'FillSupporter',
     '家に帰りたい。',
+    'IDsearcher',
   ],
   explanation: [
     //ryuou_battle
@@ -28,6 +29,9 @@ const caption = {
     //Gohome
     `個人で制作したPythonを使用した謎解き脱出ゲームです。<br>
     目が覚めると知らない家にいた主人公がどうにか脱出するゲームとなっています。`,
+    //IDsearcher
+    `個人で制作したマインクラフト統合版用アドオンです。<br>
+    アイテムidや耐久値を検索せずにゲーム内だけで確認することができます。`,
   ],
   picture1: [
     'project_img/ryuou_battle_1.png',
@@ -36,6 +40,7 @@ const caption = {
     'project_img/crl_1.png',
     'project_img/fill_1.png',
     'project_img/gohome_1.png',
+    'project_img/idsearch_1.png',
   ],
   picture2: [
     'project_img/ryuou_battle_2.png',
@@ -44,6 +49,7 @@ const caption = {
     'project_img/crl_2.png',
     'project_img/fill_2.png',
     'project_img/gohome_2.png',
+    'project_img/idsearch_2.png',
   ],
   picture3: [
     'project_img/ryuou_battle_3.png',
@@ -52,6 +58,7 @@ const caption = {
     'project_img/crl_3.png',
     'project_img/fill_3.png',
     'project_img/gohome_3.png',
+    'project_img/idsearch_3.png',
   ],
   url: [
     //ryuou_battle
@@ -66,6 +73,8 @@ const caption = {
     'https://github.com/nato-git/FillSupporterBehavior.git',
     //Gohome
     'https://github.com/nato-git/EscapeGameByPython.git',
+    //IDsearcher
+    'https://github.com/nato-git/IDsearcher.git',
   ],
 };
 
