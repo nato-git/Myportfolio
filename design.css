@@ -237,15 +237,16 @@ header {
 @media (max-width: 767px) {
   .codes {
     font-size: 13px;
+    line-height: 1.7em;
     background-image: repeating-linear-gradient(
       to bottom,
       transparent 0,
-      transparent calc(1.6em - 1px),
-      #333 calc(1.6em - 1px),
-      #333 1.6em
+      transparent calc(1.7em - 1px),
+      #333 calc(1.7em - 1px),
+      #333 1.7em
     );
   }
   .codes_pre::before {
-    left: 26px;
+    left: 24px;
   }
 }
