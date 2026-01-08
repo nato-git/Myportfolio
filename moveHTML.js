@@ -7,6 +7,7 @@ const caption = {
     'FillSupporter',
     '家に帰りたい。',
     'IDsearcher',
+    'SCORESUPPORT',
   ],
   explanation: [
     //ryuou_battle
@@ -32,6 +33,10 @@ const caption = {
     //IDsearcher
     `個人で制作したマインクラフト統合版用アドオンです。<br>
     アイテムidや耐久値を検索せずにゲーム内だけで確認することができます。`,
+    //SCORESUPPORT
+    `個人で制作したマインクラフト統合版のアドオン用ライブラリです。<br>
+    スコアボード関連のプログラムを簡単に書くことができます。<br>
+    esbuildを使ってマイクラアドオン制作でも個人インポートができるようにしています。`,
   ],
   picture1: [
     'project_img/ryuou_battle_1.png',
@@ -41,6 +46,7 @@ const caption = {
     'project_img/fill_1.png',
     'project_img/gohome_1.png',
     'project_img/idsearch_1.png',
+    'project_img/scoresupport_1.png',
   ],
   picture2: [
     'project_img/ryuou_battle_2.png',
@@ -50,6 +56,7 @@ const caption = {
     'project_img/fill_2.png',
     'project_img/gohome_2.png',
     'project_img/idsearch_2.png',
+    'project_img/scoresupport_2.png',
   ],
   picture3: [
     'project_img/ryuou_battle_3.png',
@@ -59,6 +66,7 @@ const caption = {
     'project_img/fill_3.png',
     'project_img/gohome_3.png',
     'project_img/idsearch_3.png',
+    'project_img/scoresupport_3.png',
   ],
   url: [
     //ryuou_battle
@@ -75,6 +83,8 @@ const caption = {
     'https://github.com/nato-git/EscapeGameByPython.git',
     //IDsearcher
     'https://github.com/nato-git/IDsearcher.git',
+    //SCORESUPPORT
+    'https://github.com/nato-git/ScoreboardSupport-in-scriptapi.git',
   ],
 };
 
@@ -84,9 +94,9 @@ function movingHTML(i) {
     <h2 style="border-bottom:5px #102b40 solid;">${caption.title[i]}</h2>
     <p>${caption.explanation[i]}</p>
     <div class="pic">
-    <img src="${caption.picture1[i]}"><br>
-    <img src="${caption.picture2[i]}"><br>
-    <img src="${caption.picture3[i]}"><br>
+    <img src="${caption.picture1[i]}", alt="${caption.title[i]}1"><br>
+    <img src="${caption.picture2[i]}", alt="${caption.title[i]}2"><br>
+    <img src="${caption.picture3[i]}", alt="${caption.title[i]}3"><br>
     </div>
     <a href="${caption.url[i]}" style="display:flex; justify-content: center; padding-top: 5px;">サイトへ移動</a><br>
     <a href="homepage.html" style="padding-top:20px;">ポートフォリオへ移動</a>

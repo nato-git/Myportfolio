@@ -183,8 +183,8 @@ header {
 .codes_pre {
   margin-top: 8px;
   margin-bottom: 8px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #1f1f1f;
   border-radius: 10px;
   position: relative;
@@ -237,6 +237,13 @@ header {
 @media (max-width: 767px) {
   .codes {
     font-size: 13px;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(1.5em - 1px),
+      #333 calc(1.5em - 1px),
+      #333 1.5em
+    );
   }
   .codes_pre::before {
     left: 26px;
