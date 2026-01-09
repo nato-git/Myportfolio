@@ -254,13 +254,17 @@ header {
   }
 }
 
-.language_tag {
+.language_tag p {
   font-size: 13px;
-  background-color: #bcbcbc;
+  background-color: #eaeaea;
   width: fit-content;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 4px;
   margin-top: 2px;
+  color: #8888ff;
+  margin-right: 5px;
+}
+.language_tag {
   display: flex;
 }
