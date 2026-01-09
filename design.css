@@ -253,3 +253,14 @@ header {
     left: 26px;
   }
 }
+
+.language_tag {
+  font-size: 13px;
+  background-color: #bcbcbc;
+  width: fit-content;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 4px;
+  margin-top: 2px;
+  display: flex;
+}
