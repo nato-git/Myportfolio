@@ -287,8 +287,9 @@ header {
       #333 23px,
       #333 24px
     );
-    padding-top: 0px;
+    background-position: 0 0.2em;
     display: inline-block;
+    width: 100%;
     vertical-align: top;
   }
   .codes_pre::before {
