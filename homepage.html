@@ -65,16 +65,14 @@
       </div>
       <h1>Portfolio</h1>
     </header>
-    <main style="padding-top: 200px">
+    <main style="padding-top: 150px">
       <div class="mains">
         <p class="talk">
           こんにちは、その辺の高専生をしているnatoと申します。<br />
           <a href="https://www.facebook.com/asaka.sisi/?locale=ja_JP"
             >地元の和太鼓集団</a
           >に所属し、活動しています。<br />
-          思いついたものを個人でもグループでも制作していきます。<br />
-          今の目標はUnityで色々作ってみることです。<br />
-          （HTML&CSS,Javascriptでも色々作りたい！）
+          思いついたものを個人でもグループでも制作していきます。
         </p>
         <div class="titles" id="Profiles">
           <details>
@@ -130,7 +128,7 @@
  <span class="code_number">05</span>                      'Javascript', <span class="code_explane">//マインクラフトのアドオンがある程度作れる程度★★★☆☆</span>
  <span class="code_number">06</span>                      'HTML,CSS', <span class="code_explane">//このポートフォリオが作れる程度★★☆☆☆</span>
  <span class="code_number">07</span>                      'C++', <span class="code_explane">//少し学校で学んだ程度★☆☆☆☆</span>
- <span class="code_number">08</span>                      'Kotlin' <span class="code_explane">//少し前に学び始めたばかり</span>
+ <span class="code_number">08</span>                      'Kotlin' <span class="code_explane">//少し前に学び始めたばかり★☆☆☆☆</span>
  <span class="code_number">09</span>                     ];
  <span class="code_number">10</span>
  <span class="code_number">11</span> var Software = ['Github','GoogleColab'];</code>
@@ -141,163 +139,115 @@
           <details>
             <summary>Projects</summary>
             <!--ryuou_battle-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/ryuou_battle_2.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  ドラクエ１竜王戦
-                </figcaption>
-                <div class="language_tag"><p>#Python</p></div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(0)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
-            </div>
-            <br />
-            <!--Juppyter-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/2dshoot_1.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  2年-文化祭
-                </figcaption>
-                <div class="language_tag"><p>#C#</p></div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(1)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
+            <div class="ProjectPare">
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/ryuou_battle_2.png" />
+                  </div>
+                  <figcaption class="projectEx">DQ1竜王戦</figcaption>
+                  <div class="language_tag"><p>#Python</p></div>
+                  <a href="#" onclick="movingHTML(0)">概要を見る</a>
+                </figure>
+              </div>
+              <br />
+              <!--Juppyter-->
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/2dshoot_1.png" />
+                  </div>
+                  <figcaption class="projectEx">2年-文化祭</figcaption>
+                  <div class="language_tag"><p>#C#</p></div>
+                  <a href="#" onclick="movingHTML(1)">概要を見る</a>
+                </figure>
+              </div>
             </div>
             <br />
             <!--kanji_jiten-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/kanji_1.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  小学生向け漢字辞典
-                </figcaption>
-                <div class="language_tag">
-                  <p>#html</p>
-                  <p>#Javascript</p>
-                </div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(2)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
-            </div>
-            <br />
-            <!--CRL-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/crl_2.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  CRL
-                </figcaption>
-                <div class="language_tag"><p>#kotlin</p></div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(3)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
+            <div class="ProjectPare">
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/kanji_1.png" />
+                  </div>
+                  <figcaption class="projectEx">小学生向け漢字辞典</figcaption>
+                  <div class="language_tag">
+                    <p>#html</p>
+                    <p>#Javascript</p>
+                  </div>
+                  <a href="#" onclick="movingHTML(2)">概要を見る</a>
+                </figure>
+              </div>
+              <br />
+              <!--CRL-->
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/crl_2.png" />
+                  </div>
+                  <figcaption class="projectEx">CRL</figcaption>
+                  <div class="language_tag"><p>#kotlin</p></div>
+                  <a href="#" onclick="movingHTML(3)">概要を見る</a>
+                </figure>
+              </div>
             </div>
             <br />
             <!--FillSupporter-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/fill_1.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  FillSupporterAddon
-                </figcaption>
-                <div class="language_tag"><p>#Javascript</p></div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(4)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
-            </div>
-            <br />
-            <!--Gohome-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/gohome_1.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  家に帰りたい。
-                </figcaption>
-                <div class="language_tag"><p>#Python</p></div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(5)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
+            <div class="ProjectPare">
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/fill_1.png" />
+                  </div>
+                  <figcaption class="projectEx">FillSupporterAddon</figcaption>
+                  <div class="language_tag"><p>#Javascript</p></div>
+                  <a href="#" onclick="movingHTML(4)">概要を見る</a>
+                </figure>
+              </div>
+              <br />
+              <!--Gohome-->
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/gohome_1.png" />
+                  </div>
+                  <figcaption class="projectEx">家に帰りたい。</figcaption>
+                  <div class="language_tag"><p>#Python</p></div>
+                  <a href="#" onclick="movingHTML(5)">概要を見る</a>
+                </figure>
+              </div>
             </div>
             <br />
             <!--IDsearcher-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/idsearch_1.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  IDsearcher
-                </figcaption>
-                <div class="language_tag"><p>#Javascript</p></div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(6)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
-            </div>
-            <br />
-            <!--scoresupport-->
-            <div class="Project">
-              <figure>
-                <div class="pic">
-                  <img src="project_img/scoresupport_1.png" />
-                </div>
-                <figcaption style="display: flex; justify-content: center">
-                  SCORESUPPORT
-                </figcaption>
-                <div class="language_tag"><p>#Javascript</p></div>
-              </figure>
-              <a
-                href="#"
-                onclick="movingHTML(7)"
-                style="display: flex; justify-content: center"
-                >概要を見る</a
-              >
+            <div class="ProjectPare">
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/idsearch_1.png" />
+                  </div>
+                  <figcaption class="projectEx">IDsearcher</figcaption>
+                  <div class="language_tag"><p>#Javascript</p></div>
+                  <a href="#" onclick="movingHTML(6)">概要を見る</a>
+                </figure>
+              </div>
+              <br />
+              <!--scoresupport-->
+              <div class="Project">
+                <figure>
+                  <div class="projectImg">
+                    <img src="project_img/scoresupport_1.png" />
+                  </div>
+                  <figcaption class="projectEx">SCORESUPPORT</figcaption>
+                  <div class="language_tag"><p>#Javascript</p></div>
+                  <a href="#" onclick="movingHTML(7)">概要を見る</a>
+                </figure>
+              </div>
             </div>
             <br />
           </details>
         </div>
-        <p class="explane">最終更新日 2026/1/9</p>
+        <p class="explane">最終更新日 2026/1/12</p>
       </div>
     </main>
     <script src="moveHTML.js"></script>

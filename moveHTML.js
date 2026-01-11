@@ -91,15 +91,15 @@ const caption = {
 function movingHTML(i) {
   const htmltext = `
     <div class="mains">
-    <h2 style="border-bottom:5px #102b40 solid;">${caption.title[i]}</h2>
-    <p>${caption.explanation[i]}</p>
-    <div class="pic">
-    <img src="${caption.picture1[i]}", alt="${caption.title[i]}1"><br>
-    <img src="${caption.picture2[i]}", alt="${caption.title[i]}2"><br>
-    <img src="${caption.picture3[i]}", alt="${caption.title[i]}3"><br>
-    </div>
-    <a href="${caption.url[i]}" style="display:flex; justify-content: center; padding-top: 5px;">サイトへ移動</a><br>
-    <a href="homepage.html" style="padding-top:35px;">ポートフォリオへ移動</a>
+      <h2 style="border-bottom:5px #102b40 solid;">${caption.title[i]}</h2>
+      <p>${caption.explanation[i]}</p>
+      <div class="pic">
+        <img src="${caption.picture1[i]}", alt="${caption.title[i]}1"><br>
+        <img src="${caption.picture2[i]}", alt="${caption.title[i]}2"><br>
+        <img src="${caption.picture3[i]}", alt="${caption.title[i]}3"><br>
+      </div>
+      <a href="${caption.url[i]}" style="display:flex; justify-content: center; padding-top: 5px;">サイトへ移動</a><br>
+      <a href="homepage.html" style="padding-top:35px;">ポートフォリオへ移動</a>
     </div>`;
   document.body.innerHTML = htmltext;
 }
