@@ -275,6 +275,19 @@ header {
 .language_tag {
   display: flex;
 }
+.snsimg {
+  border-radius: 10px;
+  border: #1f1f1f solid 3px;
+}
+.snsimg p {
+  border-bottom: #1f1f1f solid 2px;
+  font-size: 20px;
+}
+.sns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
 @media (max-width: 767px) {
   .codes {
