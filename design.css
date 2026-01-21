@@ -275,18 +275,23 @@ header {
 .language_tag {
   display: flex;
 }
+
 .snsimg {
   border-radius: 10px;
   border: #1f1f1f solid 3px;
-  display: flex;
-  justify-content: center;
   padding: 5px 10px 10px 5px;
   width: 200px;
   height: auto;
 }
+.snsimg img {
+  display: flex;
+  justify-content: center;
+}
 .snsimg p {
   border-bottom: #1f1f1f solid 2px;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 .sns {
   display: flex;
