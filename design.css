@@ -278,6 +278,11 @@ header {
 .snsimg {
   border-radius: 10px;
   border: #1f1f1f solid 3px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px 10px 5px;
+  width: 200px;
+  height: auto;
 }
 .snsimg p {
   border-bottom: #1f1f1f solid 2px;
