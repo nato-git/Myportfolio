@@ -123,6 +123,8 @@ header {
   border: #102b40 5px solid;
   border-radius: 20px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 .No {
@@ -280,12 +282,12 @@ header {
   border-radius: 10px;
   border: #1f1f1f solid 3px;
   padding: 5px 10px 10px 5px;
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 .snsimg img {
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
 }
 .snsimg p {
   border-bottom: #1f1f1f solid 2px;
