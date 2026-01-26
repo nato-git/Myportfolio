@@ -337,4 +337,10 @@ header {
   .language_tag p {
     font-size: 10px;
   }
+  
+  .sns {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+  }
 }
