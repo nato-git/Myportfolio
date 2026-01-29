@@ -340,6 +340,7 @@ header {
   
   .sns {
     display: flex;
+    justify-content: start;
     gap: 10px;
     overflow-x: auto;
   }
