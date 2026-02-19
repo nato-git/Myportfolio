@@ -1,3 +1,3 @@
 # ポートフォリオです
 
-## <a href="https://nato-git.github.io/Myportfolio/homepage.html">`ポートフォリオへのショートカット`</a>
+## [ポートフォリオ](https://nato-git.github.io/Myportfolio/main)
