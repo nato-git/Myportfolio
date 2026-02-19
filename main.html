@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="natoのポートフォリオサイトです。自己紹介や色々な制作物を載せています。"
+    />
+    <title>nato's Portfolio</title>
+    <link rel="stylesheet" href="design.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  </head>
+  <body>
+    <header>
+        <h1>Welcome to Nato's Portfolio!</h1>
+        <p>高専所属中/アプリ、ゲーム等開発しています</p>
+    </header>
+    <main>
+        <h2 class="heading" style="margin-top: 0;">News</h2>
+        <div class="news">
+            <p class="news-text">
+                <i class="fa-solid fa-hammer" style="margin-right: 5px;"></i> 現在Unityにてカード×ボード型オンラインゲーム開発中...</p>
+        </div>
+        <h2 class="heading">SNS</h2>
+        <div class="sns-container">
+            <a href="https://github.com/nato-git" target="_blank">
+                <i class="fa-brands fa-github" style="font-size: 2rem; color: #1a3326;"></i>
+            </a>
+            <a href="mailto:sr.nato710@gmail.com">
+                <i class="fa-solid fa-envelope" style="font-size: 2rem; color: #1a3326;"></i>
+            </a>
+        </div>
+
+        <h2 class="heading">Projects</h2>
+        <div class="project">
+            <a href="https://github.com/panko200/2D_Shooting_Game_Team.git" target="_blank" class="project-card">
+                <img src="project_img/Juppyter.png" class="project-img">
+                <h3 class="title">Juppyter</h3>
+                <p class="tag">Unity C#</p>
+                <p class="explain">2Dシューティングゲームです。グループ制作物で、私はプログラムを担当しました。
+                敵を撃破することで出現するアルファベットを使用してゲームを有利に進めることができます。</p>
+            </a>
+            <a href="https://github.com/nato-git/CharacterListApp.git" target="_blank" class="project-card">
+                <img src="project_img/CRL.png" class="project-img">
+                <h3 class="title">CRL</h3>
+                <p class="tag">AndroidStudio Kotlin</p>
+                <p class="explain">Androidで動くキャラクターリストアプリです。
+                    Json形式のファイルを使用することで他者と作成したファイルの共有ができるようになっています。</p>
+            </a>
+            <a href="https://github.com/nato-git/kanji-dictionary" target="_blank" class="project-card">
+                <img src="project_img/Kanji.png" class="project-img">
+                <h3 class="title">小学生向け漢字辞典</h3>
+                <p class="tag">HTML CSS JavaScript</p>
+                <p class="explain">文部科学省が出しているcsvファイルを活用し、1~6年生までの漢字を学年ごとに分けて表示しています。
+                    また、漢字での検索、読み方での検索、写真での検索機能を導入し、調べやすくしました。
+                </p>
+            </a>
+            <a href="https://github.com/nato-git/EscapeGameByPython.git" target="_blank" class="project-card">
+                <img src="project_img/Gohome.png" class="project-img">
+                <h3 class="title">家に帰りたい。</h3>
+                <p class="tag">Python</p>
+                <p class="explain">Pygameを使用した謎解き脱出ゲームです。オブジェクト指向でコードを書くことでプレイヤーと物体の動作を分けて作成しました。
+                </p>
+            </a>
+            <a href="https://github.com/nato-git/FillSupporterBehavior.git" target="_blank" class="project-card">
+                <img src="project_img/Fill.png" class="project-img">
+                <h3 class="title">FillSupporterAddon</h3>
+                <p class="tag">JavaScript</p>
+                <p class="explain">Minecraft統合版で使用できるアドオンです。特定スロットのアイテムを確認し、Fillコマンドを手軽に行うことができるようになっています。
+                </p>
+            </a>
+            <a href="https://github.com/nato-git/IDsearcher.git" target="_blank" class="project-card">
+                <img src="project_img/IDsearch.png" class="project-img">
+                <h3 class="title">IDsearcher</h3>
+                <p class="tag">JavaScript</p>
+                <p class="explain">Minecraft統合版で使用できるアドオンです。インベントリにあるアイテムのアイテムidや耐久値を取得し、取得したidをアイテムの説明欄に入れています。
+                    このアドオンを使用することでidを調べに行く手間をなくすことができます。
+                </p>
+            </a>
+            <a href="https://github.com/nato-git/ScoreboardSupport-in-scriptapi.git" target="_blank" class="project-card">
+                <img src="project_img/Scoresupport.png" class="project-img">
+                <h3 class="title">ScoreboardSupport</h3>
+                <p class="tag">JavaScript</p>
+                <p class="explain">Minecraft統合版のアドオン開発で使えるライブラリです。複雑なスコアボード関連のプログラムをまとめ、簡単にスコアの取得や変更を行えるようにしています。
+                </p>
+            </a>
+        </div>
+
+        <h2 class="heading">Skills</h2>
+        <div class="skill-list">
+            <div class="skill-item" data-tooltip="Unityにてゲーム開発に使用。Json形式によるセーブ,ロード機能の実装について学習中。">
+                <i class="devicon-csharp-plain"></i>
+                <span>C#</span>
+            </div>
+            <div class="skill-item" data-tooltip="主に使用するゲームエンジン。現在は2D環境についてのみ学習中。">
+                <i class="fa-brands fa-unity"></i>
+                <span>Unity</span>
+            </div>
+            <div class="skill-item" data-tooltip="開発の際に必ず使用する。pullやpush、remoteなどの基本のコマンドは使用可能。">
+                <i class="devicon-git-plain"></i>
+                <span>Git</span>
+            </div>
+            <div class="skill-item" data-tooltip="主にMinecraft統合版のアドオン開発に使用。">
+                <i class="devicon-javascript-plain"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-item" data-tooltip="基本的な文法やオブジェクト指向の基礎は学習済み。">
+                <i class="devicon-python-plain"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-item" data-tooltip="AndroidStudioにて使用。Androidアプリ開発に関することを学習中。">
+                <i class="devicon-kotlin-plain"></i>
+                <span>Kotlin</span>
+            </div>
+            <div class="skill-item" data-tooltip="Androidアプリを作成する際に主に使用するソフト。基本の使い方やレイアウトについて学習中。">
+                <i class="devicon-androidstudio-plain"></i>
+                <span>AndroidStudio</span>
+            </div>
+            <div class="skill-item" data-tooltip="CSSと合わせてレイアウトや使いやすいweb機能などについて学習中。">
+                <i class="devicon-html5-plain"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-item" data-tooltip="HTMLと合わせてレイアウトやデザインについて学習中。">
+                <i class="devicon-css3-plain"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill-item" data-tooltip="Arduinoの基礎操作や基本の文法は学習済み。">
+                <i class="devicon-cplusplus-plain"></i>
+                <span>C++</span>
+            </div>
+        </div>
+
+        <h2 class="heading">About Me</h2>
+        <div class="about">
+            <p>ハンドルネーム:nato</p>
+            <p>所属:大阪公立大学高等専門学校 2年生</p>
+            <p>生年月日:2008年5月26日</p>
+            <p>部活:ダンス部</p>
+            <p>活動:和太鼓集団獅子</p>
+        </div>
+    </main>
+  </body>
+</html>
